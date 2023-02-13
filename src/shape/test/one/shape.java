@@ -30,7 +30,7 @@ public class shape {
         return String.format("%s(%s, %.1f)", type, color, area);
     }
 
-    static List<shape> shapes = Arrays.asList(
+    public static List<shape> shapes = Arrays.asList(
             new shape("삼각형", "빨간색", 10.5),
             new shape("사각형", "파란색", 11.2),
             new shape("원", "파란색", 16.5),
